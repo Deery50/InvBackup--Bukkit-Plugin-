@@ -1,0 +1,21 @@
+main: com.runetooncraft.plugins.Invbackup.InvBackup
+name: InvBackup
+version: 0.0.1
+author: Deery50
+description: Backs up player inventories
+commands:
+    ib:
+        description: Base command for InvBackup
+        usage: |
+    invbackup:
+        description: Base command for InvBackup
+        usage: |
+permissions:
+    invbackup.showinventories:
+        description: Gives access to the /ib showinvs command
+    invbackup.openliveinventory:
+        description: Allows a Player to use /ib openplayerinventory playername command to open a live inventory and equpment of a player.
+    invbackup.opensavedinventory:
+        description: Allows a Player to use /ib OpenInv playername backupnumber command.
+    invbackup.restoreinventories:
+        description: Allows a Player to use /ib restore to restore any player's inventory from a backup.
